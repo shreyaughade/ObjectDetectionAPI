@@ -40,4 +40,4 @@ def upload_image():
 
 
 if __name__ == '__main__':
-    app.run(port=process.env.PORT)
+    app.run(debug=True)
