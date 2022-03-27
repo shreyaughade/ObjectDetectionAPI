@@ -10,7 +10,6 @@ atomicwrites==1.4.0
 attrs==21.2.0
 backcall==0.2.0
 beautifulsoup4==4.10.0
-bleach==4.1.0
 cachetools==4.2.4
 certifi==2020.12.5
 cffi==1.15.0
@@ -18,9 +17,7 @@ chardet==4.0.0
 charset-normalizer==2.0.7
 clang==5.0
 click==7.1.2
-colorama==0.4.4
 cycler==0.11.0
-debugpy==1.5.1
 decorator==5.1.1
 entrypoints==0.4
 executing==0.8.3
@@ -31,9 +28,6 @@ flatbuffers==1.12
 gast==0.4.0
 gevent==21.12.0
 glob2==0.7
-google-auth==2.3.1
-google-auth-oauthlib==0.4.6
-google-pasta==0.2.0
 greenlet==1.1.2
 grpcio==1.41.1
 gunicorn==20.1.0
@@ -95,11 +89,9 @@ six==1.15.0
 sklearn==0.0
 soupsieve==2.3.1
 SpeechRecognition==3.8.1
-sqlparse==0.4.1
 stack-data==0.2.0
 tensorflow-cpu==2.6.1
 tensorflow-estimator==2.6.0
-termcolor==1.1.0
 terminado==0.13.3
 testpath==0.6.0
 threadpoolctl==2.1.0
