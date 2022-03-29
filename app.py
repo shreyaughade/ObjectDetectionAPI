@@ -27,8 +27,11 @@ def upload_image():
     
     now = datetime.now()
     filename = now.strftime("%Y%m%d_%H%M%S") + "_" + str(randint(000, 999))
-    file.save(os.path.join(uploads_dir, secure_filename(filename + '.jpg')))
+    filepath=os.path.join(uploads_dir, secure_filename(filename + '.jpg'))
+    print(filepath)
+    file.save(filepath)
     objects_count, objects_confidence = process(uploads_dir, output_dir, filename)
+    
     
     response = {
         'objects_count': objects_count, 
