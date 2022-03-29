@@ -72,7 +72,7 @@ pydot==1.4.2
 Pygments==2.11.2
 pyparsing==2.4.7
 pyrsistent==0.18.1
-python3-opencv
+opencv-python==4.5.5.64
 PySocks==1.7.1
 pytest==6.2.4
 python-dateutil==2.8.1
